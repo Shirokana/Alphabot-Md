@@ -186,8 +186,8 @@ module.exports = alpha = async (alpha, m, chatUpdate, store, reSize) => {
 				if (!('setWelcome' in chats)) chats.setWelcome = ''
 				if (!('setLeave' in chats)) chats.setLeave = ''
 					} else db.data.chats[m.chat] = {
-					goodbye: true, 
-					welcome: true, 
+					goodbye: false, 
+					welcome: false, 
 					mute: false,
 					nsfw: false,
 					antilink: false,
