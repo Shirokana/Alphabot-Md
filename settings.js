@@ -14,7 +14,7 @@ global.APIKeys = {
 
 // setting 
 global.autoread = false // auto read pesan / message
-global.autobio = true 
+global.autobio = false
 
 //language
 //Available in indonesia , english & spanyol 
